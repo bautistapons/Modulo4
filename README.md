@@ -2,7 +2,7 @@
 
 # Estructuras Genéricas: Realimentación Negativa de Primer Orden
 
-Este repositorio contiene la entrega del trabajo práctico sobre **Estructuras Genéricas de Realimentación Negativa de Primer Orden** en Dinámica de Sistemas, basado en el documento académico **D-4475-2** (*MIT System Dynamics in Education Project*, bajo la supervisión del Dr. Jay W. Forrester)[cite: 1, 4].
+Este repositorio contiene la entrega del trabajo práctico sobre **Estructuras Genéricas de Realimentación Negativa de Primer Orden** en Dinámica de Sistemas, basado en el documento académico **D-4475-2** (*MIT System Dynamics in Education Project*, bajo la supervisión del Dr. Jay W. Forrester).
 
 ---
 
@@ -14,8 +14,8 @@ Este repositorio contiene la entrega del trabajo práctico sobre **Estructuras G
 
 ### 2. Implementación de Modelo en Vensim
 * Se diseñó un modelo de simulación en **Vensim** que aplica los principios de la estructura genérica analizada.
-* El modelo representa la dinámica poblacional a través de un nivel de población (`POBLACION`)[cite: 34] regulado por un flujo de salida (`MUERTES`)[cite: 34] dependiente de una fracción de mortalidad constante (`FRACCION DE MUERTE`)[cite: 34] (bucle de realimentación negativa con meta implícita de cero)[cite: 6, 7].
-* Adicionalmente, se acopla un flujo de entrada (`NACIMIENTOS`)[cite: 34] dependiente de una tasa de natalidad en función del tiempo (`<Time>`)[cite: 34] para contrastar la interacción entre bucles de realimentación.
+* El modelo representa la dinámica poblacional a través de un nivel de población (`POBLACION`)regulado por un flujo de salida (`MUERTES`) dependiente de una fracción de mortalidad constante (`FRACCION DE MUERTE`) (bucle de realimentación negativa con meta implícita de cero).
+* Adicionalmente, se acopla un flujo de entrada (`NACIMIENTOS`) dependiente de una tasa de natalidad en función del tiempo (`<Time>`) para contrastar la interacción entre bucles de realimentación.
 * El archivo del modelo (`.mdl`) se encuentra adjunto en este repositorio.
 
 ### 3. Presentación de Diapositivas
